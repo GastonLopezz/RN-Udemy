@@ -1,20 +1,9 @@
 import React, {useState} from 'react';
 import { View, Text, StyleSheet, TextInput } from 'react-native';
 
-// import { Container } from './styles';
-
 const TextScreen = () => {
     const [name, setName] = useState('');
     const [passwd,setPasswd] = useState('');
-    //const [shorterThanFive, setShorter] = useState(true);
-    console.log(name);
-    console.log(passwd);
-    //console.log(shorterThanFive);
-
-    /*const onPasswordChange = (change) => {
-        setPasswd(change);
-        setShorter( change.length >= 5 ? false : true )
-    }*/
 
   return (<View > 
       <Text> Name: </Text>
