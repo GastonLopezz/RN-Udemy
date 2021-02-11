@@ -18,25 +18,21 @@ const styles = StyleSheet.create({
       alignItems: 'stretch',
       height: 200,
       justifyContent: 'flex-start',
-      flexDirection: 'row'
+      flexDirection: 'column'
     },
     textOneStyle:{
       borderWidth: 4,
-      borderColor: 'red',
-      alignSelf:'flex-start',
-      position: 'absolute'
+      borderColor: 'red'
     },
     textTwoStyle:{
       borderWidth: 4,
       borderColor: 'red',
-      alignSelf: 'center',
-      position: 'absolute'
+      fontSize: 18,
+      ...StyleSheet.absoluteFillObject
     },
     textThreeStyle:{
       borderWidth: 4,
-      borderColor: 'red',
-      alignSelf: 'flex-end',
-      position: 'absolute'
+      borderColor: 'red'
     }
 });
 
